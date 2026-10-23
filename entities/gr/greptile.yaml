@@ -1,0 +1,64 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m5ky2evb499dxksf7ya0fcph
+  slug: greptile
+  slug_aliases: []
+  name: Greptile
+  domains:
+    - value: greptile.com
+      role: primary
+      valid_from: 2026-08-31T14:35:07.000Z
+  category: devtools-other
+profile:
+  summary: Greptile provides AI agents that review and test pull requests with full context of the codebase.
+  description: Greptile provides AI-powered code review agents that analyze codebases and review pull requests.
+  links:
+    site: https://www.greptile.com
+sources:
+  - source_id: src_c22a4bf1d0ddae5df4e71fc24521a41c11948be0aad482941d19b4eac52f2c43
+    url: https://www.greptile.com/pricing/startup-discount
+  - source_id: src_bfe1656b2dfef74ceffe9d137b0abbcffae83c5e7e2bddf79095f06d612a546d
+    url: https://www.greptile.com/
+programs: []
+offers:
+  - offer_id: off_01m5ky2evech687zpk3j5ve7ds
+    offer_slug: 500-free-credits-a-month-for-six-months
+    offer_slug_aliases: []
+    title: 500 free credits a month for 6 months
+    summary: Pre-Series A companies with less than $2M revenue in the past 12 months get 500 free credits every month for 6 months.
+    lifecycle:
+      status: active
+      effective_from: 2026-08-31T14:35:07.000Z
+    economics:
+      benefits:
+        - benefit_id: ben_01
+          description: 500 free Greptile credits every month for 6 months
+          kind: other
+      consideration:
+        kind: none
+    eligibility:
+      rule:
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: The company is pre-Series A.
+          - criterion_id: cri_02
+            fact: company.annual_revenue_usd
+            kind: predicate
+            operator: lt
+            statement: The company had less than $2M in revenue in the past 12 months.
+            value:
+              type: number
+              value: 2000000
+    roles:
+      terms_authority_entity_id: ent_01m5ky2evb499dxksf7ya0fcph
+      access_operator_entity_id: ent_01m5ky2evb499dxksf7ya0fcph
+    access:
+      availability: public
+      method: form
+      instructions: Submit the startup discount application form on the Greptile pricing page.
+      url: https://www.greptile.com/pricing/startup-discount
+    source_ids:
+      - src_c22a4bf1d0ddae5df4e71fc24521a41c11948be0aad482941d19b4eac52f2c43
