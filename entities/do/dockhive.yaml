@@ -51,15 +51,23 @@ offers:
           - criterion_id: cri_01
             kind: manual
             reason: external-verification
-            statement: The company is building its own product from idea to Series A (bootstrapped or funded).
+            statement: You're building your own product, from idea to Series A.
           - criterion_id: cri_02
             kind: manual
             reason: external-verification
-            statement: Not an agency or freelancer building for clients.
+            statement: Bootstrapped or funded, anywhere in the world.
           - criterion_id: cri_03
             kind: manual
             reason: external-verification
-            statement: Account has not already received DockHive startup credit.
+            statement: You have a website, landing page or demo we can look at.
+          - criterion_id: cri_04
+            kind: manual
+            reason: external-verification
+            statement: Agencies and freelancers building for clients are not eligible.
+          - criterion_id: cri_05
+            kind: manual
+            reason: external-verification
+            statement: Accounts that already received DockHive startup credit are not eligible.
     roles:
       terms_authority_entity_id: ent_01m5med62ny26ym9zaxrzm45qt
       access_operator_entity_id: ent_01m5med62ny26ym9zaxrzm45qt
