@@ -11,7 +11,7 @@ entity:
   category: communication
 profile:
   summary: Mailazy provides a transactional and marketing email platform with behavior triggers, AI drafts, visual automations, and own-SMTP routing.
-  description: Mailazy provides transactional email APIs, visual marketing automations, and behavior-triggered email infrastructure with bring-your-own-SMTP.
+  description: Send emails when users do, or stop doing, something in your product. Write rules in plain English, or run Mailazy from Claude or ChatGPT over MCP.
   links:
     site: https://mailazy.com/
 sources:
@@ -41,7 +41,8 @@ offers:
             basis_points: 6500
             kind: exact
       consideration:
-        kind: none
+        kind: variable
+        description: The startup pays the discounted price of $172 for the first year of Mailazy Pro.
     eligibility:
       rule:
         kind: all
