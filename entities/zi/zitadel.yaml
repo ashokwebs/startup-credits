@@ -10,7 +10,7 @@ entity:
       valid_from: 2026-01-01T00:00:00.000Z
   category: auth-security
 profile:
-  summary: ZITADEL provides an open-source identity infrastructure platform for authentication, authorization, and user management.
+  summary: ZITADEL provides a multi-tenant, API-first identity platform.
   description: ZITADEL is the identity infrastructure platform that is built for developers and works for all users and applications.
   links:
     site: https://zitadel.com/
